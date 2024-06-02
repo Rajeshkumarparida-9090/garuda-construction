@@ -1,10 +1,17 @@
+
 .App {
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+video {
+  object-fit: cover;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -36,3 +43,16 @@
     transform: rotate(360deg);
   }
 }
+
+@media (min-width: 600px) {
+  .css-r6ewbb-MuiToolbar-root {
+      min-height: 44px !important;
+  }
+}
+
+
+
+
+
+
+
